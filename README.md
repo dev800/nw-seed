@@ -1,4 +1,4 @@
-# vue-nw-seed
+# nw-seed
 
 > A seed project with Vue.js and Nw.js
 
@@ -37,10 +37,6 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 ### `for upgrade`
 ![upgrade](/docs/assets/upgrade.gif)
-
-### Build a beautiful setup for windows
-This feature in [vue-nw-seed/origin/win-beautiful-setup](https://github.com/anchengjian/vue-nw-seed/tree/win-beautiful-setup) branch.
-![win-setup](/docs/assets/win-setup.gif)
 
 ## FAQ
 ### Why nw@0.14.7 ？

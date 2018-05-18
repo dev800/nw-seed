@@ -1,9 +1,9 @@
 {
-  "name": "vue-nw-seed",
+  "name": "nw-seed",
   "appName": "应用的中文别名",
   "version": "0.1.1",
   "description": "A seed project with Vue.js and Nw.js",
-  "author": "anchengjian <anchengjian@gmail.com>",
+  "author": "dev800",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -70,12 +70,12 @@
   "main": "http://localhost:8080",
   "manifestUrl": "http://localhost:8080/releases/upgrade.json",
   "window": {
-    "title": "vue-nw-seed",
+    "title": "nw-seed",
     "toolbar": false,
     "width": 800,
-    "height": 500,
+    "height": 600,
     "min_width": 800,
-    "min_height": 500,
+    "min_height": 600,
     "resizable": true,
     "frame": true,
     "kiosk": false,

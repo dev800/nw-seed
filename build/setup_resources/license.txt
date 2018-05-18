@@ -1,5 +1,3 @@
-welcome vue-nw-seed.
+welcome nw-seed.
 
-2333
-
-+1s
+NW.js Seed Project
