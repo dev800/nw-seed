@@ -28,11 +28,11 @@ var platforms = {
   },
   'linux32': {
     name: 'linux32',
-    ext: '.gz'
+    ext: ''
   },
   'linux64': {
     name: 'linux64',
-    ext: '.gz'
+    ext: ''
   }
 }
 

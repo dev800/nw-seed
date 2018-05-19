@@ -8,13 +8,19 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "et_init": "node_modules/element-theme/bin/element-theme --init ./src/element-variables.scss",
+    "et_watch": "node_modules/element-theme/bin/element-theme --watch --config ./src/element-variables.scss --out ./src/themes/default/element",
+    "et_build": "node_modules/element-theme/bin/element-theme --config ./src/element-variables.scss --out ./src/themes/default/element --minimize"
   },
   "dependencies": {
     "node-webkit-updater": "^0.3.3",
     "nw": "0.14.7-sdk",
     "vue": "^2.2.2",
-    "vue-router": "^2.2.0"
+    "vue-router": "^2.2.0",
+    "element-ui": "^2.3.9",
+    "element-theme-chalk": "^2.3.9",
+    "element-theme": "^2.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
