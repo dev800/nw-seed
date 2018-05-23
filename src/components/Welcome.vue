@@ -1,8 +1,10 @@
 <template>
-  <div class="hello">
+  <div class="welcome">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
+      <li><a href="/login" class="el-button el-button--primary">立即登录</a></li>
+      <li><a href="/register" class="el-button el-button--default">立即注册</a></li>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
       <li><a href="https://gitter.im/vuejs/vue" target="_blank">Gitter Chat</a></li>
@@ -59,7 +61,7 @@
 
 <script>
 export default {
-  name: 'hello',
+  name: 'welcome',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
@@ -85,6 +87,10 @@ li {
 }
 
 a {
-  color: #42b983;
+  text-decoration: none;
+}
+
+.el-row {
+  padding: 0.5em 0;
 }
 </style>
