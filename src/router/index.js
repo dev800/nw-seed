@@ -8,9 +8,16 @@ import Update from '@/components/Update'
 Vue.use(Router)
 
 export default new Router({
+  hashbang: true,
+  history: true,
   routes: [
     {
       path: '/',
+      name: 'Welcome',
+      component: Welcome
+    },
+    {
+      path: '/welcome',
       name: 'Welcome',
       component: Welcome
     },

@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Element from 'element-ui'
-import '../src/themes/default/element/index.css'
+import '../src/css/themes/default/element/index.css'
 
 Vue.use(Element, { size: 'small' })
 
